@@ -1,0 +1,243 @@
+{
+  "Claude": {
+    "counts": {
+      "messages": 8364,
+      "missing_url": 0,
+      "non_english_pair": 220,
+      "media_task": 24,
+      "invalid_topic": 3,
+      "duplicate_pair": 4,
+      "conversations": 911,
+      "eligible_pairs": 663
+    },
+    "roles": {
+      "user": 4182,
+      "llm": 4182
+    },
+    "domains": {
+      "tutoring_or_teaching": 45,
+      "specific_info": 152,
+      "mathematical_calculation": 63,
+      "how_to_advice": 21,
+      "argument_or_summary_generation": 34,
+      "computer_programming": 145,
+      "relationships_and_personal_reflection": 18,
+      "other": 46,
+      "greetings_and_chitchat": 21,
+      "health_fitness_beauty_or_self_care": 5,
+      "unclear": 8,
+      "edit_or_critique_provided_text": 27,
+      "write_fiction": 30,
+      "purchasable_products": 4,
+      "data_analysis": 16,
+      "asking_about_the_model": 8,
+      "cooking_and_recipes": 3,
+      "creative_ideation": 4,
+      "unknown": 3,
+      "games_and_role_play": 5,
+      "personal_writing_or_communication": 5
+    }
+  },
+  "Grok": {
+    "counts": {
+      "messages": 98888,
+      "missing_url": 0,
+      "non_english_pair": 3399,
+      "media_task": 162,
+      "invalid_topic": 24,
+      "duplicate_pair": 793,
+      "missing_or_conflicting_first_exchange": 30,
+      "conversations": 13149,
+      "eligible_pairs": 8765
+    },
+    "roles": {
+      "user": 49476,
+      "llm": 49412
+    },
+    "domains": {
+      "creative_ideation": 34,
+      "specific_info": 5122,
+      "greetings_and_chitchat": 194,
+      "computer_programming": 335,
+      "mathematical_calculation": 443,
+      "data_analysis": 109,
+      "purchasable_products": 156,
+      "unknown": 23,
+      "argument_or_summary_generation": 389,
+      "cooking_and_recipes": 78,
+      "how_to_advice": 172,
+      "write_fiction": 294,
+      "health_fitness_beauty_or_self_care": 150,
+      "asking_about_the_model": 111,
+      "unclear": 164,
+      "other": 435,
+      "games_and_role_play": 43,
+      "relationships_and_personal_reflection": 119,
+      "personal_writing_or_communication": 51,
+      "tutoring_or_teaching": 241,
+      "edit_or_critique_provided_text": 80,
+      "translation": 22
+    }
+  },
+  "Gemini": {
+    "counts": {
+      "messages": 67668,
+      "missing_url": 0,
+      "non_english_pair": 3482,
+      "media_task": 199,
+      "duplicate_pair": 172,
+      "invalid_topic": 2,
+      "conversations": 6826,
+      "eligible_pairs": 2973
+    },
+    "roles": {
+      "user": 33834,
+      "llm": 33834
+    },
+    "domains": {
+      "computer_programming": 118,
+      "specific_info": 1328,
+      "write_fiction": 618,
+      "argument_or_summary_generation": 108,
+      "mathematical_calculation": 117,
+      "tutoring_or_teaching": 121,
+      "edit_or_critique_provided_text": 41,
+      "health_fitness_beauty_or_self_care": 51,
+      "relationships_and_personal_reflection": 43,
+      "greetings_and_chitchat": 60,
+      "asking_about_the_model": 12,
+      "other": 162,
+      "how_to_advice": 39,
+      "data_analysis": 39,
+      "unclear": 38,
+      "personal_writing_or_communication": 13,
+      "translation": 4,
+      "purchasable_products": 29,
+      "financial_advice": 1,
+      "unknown": 2,
+      "games_and_role_play": 9,
+      "cooking_and_recipes": 12,
+      "creative_ideation": 8
+    }
+  },
+  "final": {
+    "rows": 1878,
+    "per_family": {
+      "Claude": 626,
+      "Grok": 626,
+      "Gemini": 626
+    },
+    "split_by_family": {
+      "train": {
+        "Claude": 465,
+        "Grok": 465,
+        "Gemini": 465
+      },
+      "validation": {
+        "Claude": 84,
+        "Grok": 84,
+        "Gemini": 84
+      },
+      "test": {
+        "Claude": 77,
+        "Grok": 77,
+        "Gemini": 77
+      }
+    },
+    "domains": {
+      "Claude": {
+        "greetings_and_chitchat": 21,
+        "specific_info": 144,
+        "mathematical_calculation": 56,
+        "computer_programming": 138,
+        "write_fiction": 28,
+        "tutoring_or_teaching": 43,
+        "edit_or_critique_provided_text": 26,
+        "creative_ideation": 4,
+        "how_to_advice": 21,
+        "argument_or_summary_generation": 31,
+        "games_and_role_play": 4,
+        "relationships_and_personal_reflection": 18,
+        "data_analysis": 16,
+        "other": 44,
+        "unknown": 3,
+        "unclear": 8,
+        "purchasable_products": 4,
+        "asking_about_the_model": 6,
+        "health_fitness_beauty_or_self_care": 5,
+        "personal_writing_or_communication": 3,
+        "cooking_and_recipes": 3
+      },
+      "Grok": {
+        "specific_info": 365,
+        "other": 26,
+        "computer_programming": 28,
+        "personal_writing_or_communication": 7,
+        "unclear": 13,
+        "argument_or_summary_generation": 29,
+        "write_fiction": 23,
+        "creative_ideation": 3,
+        "mathematical_calculation": 30,
+        "tutoring_or_teaching": 14,
+        "health_fitness_beauty_or_self_care": 7,
+        "how_to_advice": 9,
+        "data_analysis": 6,
+        "greetings_and_chitchat": 9,
+        "asking_about_the_model": 8,
+        "games_and_role_play": 4,
+        "relationships_and_personal_reflection": 7,
+        "purchasable_products": 16,
+        "edit_or_critique_provided_text": 9,
+        "cooking_and_recipes": 6,
+        "translation": 4,
+        "unknown": 3
+      },
+      "Gemini": {
+        "specific_info": 262,
+        "write_fiction": 145,
+        "greetings_and_chitchat": 17,
+        "argument_or_summary_generation": 29,
+        "cooking_and_recipes": 4,
+        "other": 36,
+        "computer_programming": 24,
+        "how_to_advice": 10,
+        "tutoring_or_teaching": 29,
+        "relationships_and_personal_reflection": 7,
+        "mathematical_calculation": 25,
+        "translation": 1,
+        "data_analysis": 5,
+        "purchasable_products": 5,
+        "asking_about_the_model": 3,
+        "edit_or_critique_provided_text": 9,
+        "health_fitness_beauty_or_self_care": 8,
+        "games_and_role_play": 2,
+        "unclear": 4,
+        "creative_ideation": 1
+      }
+    },
+    "known_model_versions": {
+      "Claude": {
+        "unknown": 626
+      },
+      "Grok": {
+        "grok-3": 8,
+        "unknown": 564,
+        "grok-2": 21,
+        "grok-latest": 32,
+        "grok-v-latest": 1
+      },
+      "Gemini": {
+        "unknown": 474,
+        "2.5 Flash": 32,
+        "2.5 Flash (preview)": 5,
+        "2.5 Pro (preview)": 16,
+        "2.0 Flash": 60,
+        "2.5 Pro (experimental)": 13,
+        "Deep Research with 2.5 Pro": 4,
+        "2.0 Flash Thinking (experimental)": 6,
+        "2.5 Flash (experimental)": 7,
+        "2.5 Pro": 9
+      }
+    }
+  }
+}
