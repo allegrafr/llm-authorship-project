@@ -1,7 +1,4 @@
-# Run the authorship experiments
-
-Place models.py, train.py, requirements.txt, .gitignore, and this guide in the repository root, beside README.md. Keep your prepared dataset at data/dataset.csv and your preparation scripts in dataset-preparation/.
-
+Running Authorship 
 In the terminal, from the repository root:
 
 ```bash
@@ -10,9 +7,19 @@ python train.py --smoke-test
 python train.py
 ```
 
-If your Mac uses python3, replace python with python3. If using your existing virtual environment, activate it first: `source .venv/bin/activate`.
+Mac:
+python3
 
-The smoke test checks all six experiments on a tiny subset for one epoch. Its results are not scientific results. The full command runs CNN and LSTM using input only, output only, and input plus output. CPU is used unless CUDA is available. Allow the full run to finish; progress appears every epoch.
+virtual environment:
+activate it first: `source .venv/bin/activate`.
+
+The smoke test checks all six experiments on a tiny subset for one epoch. 
+
+Its results are not scientific results. 
+
+The full command runs CNN and LSTM using input only, output only, and input plus output. 
+
+Allow the full run to finish; progress appears every epoch.
 
 ## Method
 
